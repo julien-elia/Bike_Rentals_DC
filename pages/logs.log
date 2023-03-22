@@ -1,0 +1,184 @@
+2023-03-20 11:39:43,051:INFO:Initializing load_model()
+2023-03-20 11:39:43,052:INFO:load_model(model_name=cnt_bikes, platform=None, authentication=None, verbose=True)
+2023-03-20 11:40:21,008:INFO:Initializing load_model()
+2023-03-20 11:40:21,009:INFO:load_model(model_name=cnt_bikes, platform=None, authentication=None, verbose=True)
+2023-03-20 11:40:21,077:INFO:Initializing predict_model()
+2023-03-20 11:40:21,077:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='regression', target='cnt')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'f...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='cnt')),
+                ('fix_perfect', Remove_100(target='cnt')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 <catboost.core.CatBoostRegressor object at 0x0000020F807890D0>]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None, drift_kwargs=None)
+2023-03-20 11:40:21,077:INFO:Checking exceptions
+2023-03-20 11:40:21,077:INFO:Preloading libraries
+2023-03-20 11:41:26,859:INFO:Initializing load_model()
+2023-03-20 11:41:26,859:INFO:load_model(model_name=cnt_bikes, platform=None, authentication=None, verbose=True)
+2023-03-20 11:41:26,883:INFO:Initializing predict_model()
+2023-03-20 11:41:26,883:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='regression', target='cnt')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'f...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='cnt')),
+                ('fix_perfect', Remove_100(target='cnt')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 <catboost.core.CatBoostRegressor object at 0x0000020F81B8D640>]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None, drift_kwargs=None)
+2023-03-20 11:41:26,884:INFO:Checking exceptions
+2023-03-20 11:41:26,884:INFO:Preloading libraries
+2023-03-20 11:44:11,424:INFO:Initializing load_model()
+2023-03-20 11:44:11,426:INFO:load_model(model_name=cnt_bikes, platform=None, authentication=None, verbose=True)
+2023-03-20 11:44:11,486:INFO:Initializing predict_model()
+2023-03-20 11:44:11,487:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='regression', target='cnt')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'f...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='cnt')),
+                ('fix_perfect', Remove_100(target='cnt')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 <catboost.core.CatBoostRegressor object at 0x000002218A8B8BB0>]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None, drift_kwargs=None)
+2023-03-20 11:44:11,487:INFO:Checking exceptions
+2023-03-20 11:44:11,488:INFO:Preloading libraries
+2023-03-20 11:53:34,323:INFO:Initializing load_model()
+2023-03-20 11:53:34,323:INFO:load_model(model_name=cnt_bikes, platform=None, authentication=None, verbose=True)
+2023-03-20 11:53:34,474:INFO:Initializing predict_model()
+2023-03-20 11:53:34,474:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='regression', target='cnt')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'f...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='cnt')),
+                ('fix_perfect', Remove_100(target='cnt')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 <catboost.core.CatBoostRegressor object at 0x00000220D9048D30>]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None, drift_kwargs=None)
+2023-03-20 11:53:34,474:INFO:Checking exceptions
+2023-03-20 11:53:34,474:INFO:Preloading libraries
+2023-03-20 11:56:02,747:INFO:Initializing load_model()
+2023-03-20 11:56:02,747:INFO:load_model(model_name=cnt_bikes, platform=None, authentication=None, verbose=True)
+2023-03-20 11:56:02,835:INFO:Initializing predict_model()
+2023-03-20 11:56:02,835:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='regression', target='cnt')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'f...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='cnt')),
+                ('fix_perfect', Remove_100(target='cnt')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 <catboost.core.CatBoostRegressor object at 0x000001A91EF7AB50>]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None, drift_kwargs=None)
+2023-03-20 11:56:02,835:INFO:Checking exceptions
+2023-03-20 11:56:02,835:INFO:Preloading libraries
+2023-03-20 11:56:14,701:INFO:Initializing load_model()
+2023-03-20 11:56:14,701:INFO:load_model(model_name=cnt_bikes, platform=None, authentication=None, verbose=True)
+2023-03-20 11:56:14,734:INFO:Initializing predict_model()
+2023-03-20 11:56:14,736:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='regression', target='cnt')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'f...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='cnt')),
+                ('fix_perfect', Remove_100(target='cnt')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 <catboost.core.CatBoostRegressor object at 0x000001A9211C94F0>]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None, drift_kwargs=None)
+2023-03-20 11:56:14,736:INFO:Checking exceptions
+2023-03-20 11:56:14,736:INFO:Preloading libraries
+2023-03-20 11:57:51,394:INFO:Initializing load_model()
+2023-03-20 11:57:51,394:INFO:load_model(model_name=cnt_bikes, platform=None, authentication=None, verbose=True)
+2023-03-20 11:57:51,478:INFO:Initializing predict_model()
+2023-03-20 11:57:51,478:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='regression', target='cnt')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'f...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='cnt')),
+                ('fix_perfect', Remove_100(target='cnt')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 <catboost.core.CatBoostRegressor object at 0x000002443CC83DF0>]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None, drift_kwargs=None)
+2023-03-20 11:57:51,478:INFO:Checking exceptions
+2023-03-20 11:57:51,478:INFO:Preloading libraries
